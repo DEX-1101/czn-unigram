@@ -85,7 +85,7 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({
         {/* The Bubble */}
         <div 
           className={`
-            relative px-4 py-[5px] pb-[7px] shadow-md text-[15px] leading-[1.35] break-words group transition-all duration-200 chat-bubble-text
+            relative px-4 py-[8px] pb-[10px] shadow-md text-[15px] leading-[1.5] break-words group transition-all duration-200 chat-bubble-text
             ${isUser 
               ? 'bg-gradient-to-r from-[#8B5CF6] to-[#6D28D9] text-white rounded-lg' 
               : 'bg-white text-gray-800 rounded-lg'
