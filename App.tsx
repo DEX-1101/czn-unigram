@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Analytics } from "@vercel/analytics/react"
 import { X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { toPng } from 'html-to-image';
@@ -553,7 +552,6 @@ const App: React.FC = () => {
         </AnimatePresence>
 
       </div>
-      <Analytics />
     </>
   );
 };
