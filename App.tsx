@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState, useEffect, useRef } from 'react';
 import { X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -552,6 +553,7 @@ const App: React.FC = () => {
         </AnimatePresence>
 
       </div>
+	  <Analytics />
     </>
   );
 };
