@@ -148,7 +148,6 @@ const App: React.FC = () => {
 
            // Extended Interaction
            
-           // User: Thankyou my wif-
            await delay(1500);
            playSound('send');
            setMessages(prev => [...prev, {
@@ -156,17 +155,15 @@ const App: React.FC = () => {
              sender: 'user',
              text: "Thankyou my wif-"
            }]);
-
-           // User: i mean.. Reona.
+           
            await delay(1000);
            playSound('send');
            setMessages(prev => [...prev, {
              id: 'tut-7',
              sender: 'user',
-             text: "i mean.. Reona."
+             text: "i mean.. Renoa."
            }]);
 
-           // Separator: Reona is offline
            await delay(1000);
            playSound('system');
            setMessages(prev => [...prev, {
@@ -175,7 +172,6 @@ const App: React.FC = () => {
              text: "Reona is offline"
            }]);
 
-           // Separator: Reona is online
            await delay(1000);
            playSound('system');
            setMessages(prev => [...prev, {
@@ -184,7 +180,6 @@ const App: React.FC = () => {
              text: "Reona is online"
            }]);
 
-           // Reona: What did you just say captain?
            await delay(1500);
            playSound('receive');
            setMessages(prev => [...prev, {
@@ -194,7 +189,6 @@ const App: React.FC = () => {
              text: "What did you just say captain?"
            }]);
 
-           // User: Ehem... nothing important
            await delay(1500);
            playSound('send');
            setMessages(prev => [...prev, {
@@ -203,7 +197,6 @@ const App: React.FC = () => {
              text: "Ehem... nothing important"
            }]);
 
-           // Reona: ??
            await delay(1000);
            playSound('receive');
            setMessages(prev => [...prev, {
