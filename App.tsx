@@ -169,7 +169,7 @@ const App: React.FC = () => {
            setMessages(prev => [...prev, {
              id: 'tut-8',
              sender: 'system',
-             text: "Reona is offline"
+             text: "Renoa is offline"
            }]);
 
            await delay(1000);
@@ -177,7 +177,7 @@ const App: React.FC = () => {
            setMessages(prev => [...prev, {
              id: 'tut-9',
              sender: 'system',
-             text: "Reona is online"
+             text: "Renoa is online"
            }]);
 
            await delay(1500);
